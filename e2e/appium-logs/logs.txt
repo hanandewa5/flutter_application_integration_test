@@ -1,0 +1,294 @@
+2025-01-02 06:57:53:989 [Appium] Welcome to Appium v2.13.1
+2025-01-02 06:57:53:993 [Appium] Non-default server args:
+2025-01-02 06:57:53:995 [Appium] { address: '127.0.0.1',
+  basePath: '/wd/hub',
+  port: 4751,
+  relaxedSecurityEnabled: true }
+2025-01-02 06:57:53:995 [Appium] The autodetected Appium home path: /home/hanan/Works/other/flutter_application_integration_test/e2e
+2025-01-02 06:57:53:996 [Appium] Attempting to load driver xcuitest...
+2025-01-02 06:57:53:997 [Appium] Attempting to load driver uiautomator2...
+2025-01-02 06:57:53:997 [Appium] Attempting to load driver flutter-integration...
+2025-01-02 06:57:54:001 [Appium] Requiring driver at /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-xcuitest-driver/build/index.js
+2025-01-02 06:57:54:002 [Appium] Requiring driver at /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/build/index.js
+2025-01-02 06:57:54:003 [Appium] Requiring driver at /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-flutter-integration-driver/build/src/driver.js
+2025-01-02 06:57:54:619 [Appium] XCUITestDriver has been successfully loaded in 0.622s
+2025-01-02 06:57:55:179 [Appium] AndroidUiautomator2Driver has been successfully loaded in 1.182s
+2025-01-02 06:57:55:179 [Appium] AppiumFlutterDriver has been successfully loaded in 1.182s
+2025-01-02 06:57:55:197 [Appium] Appium REST http interface listener started on http://127.0.0.1:4751/wd/hub
+2025-01-02 06:57:55:197 [Appium] Available drivers:
+2025-01-02 06:57:55:197 [Appium]   - xcuitest@7.35.0 (automationName 'XCUITest')
+2025-01-02 06:57:55:197 [Appium]   - uiautomator2@3.9.6 (automationName 'UiAutomator2')
+2025-01-02 06:57:55:198 [Appium]   - flutter-integration@1.1.3 (automationName 'FlutterIntegration')
+2025-01-02 06:57:55:198 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-01-02 06:57:56:226 [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"FlutterIntegration","appium:autoGrantPermissions":true,"appium:orientation":"PORTRAIT","appium:newCommandTimeout":240,"appium:flutterServerTimeout":30000,"appium:flutterServerConnectionTimeout":30000,"appium:flutterServerReadTimeout":30000,"appium:app":"../build/app/outputs/flutter-apk/app-debug.apk"},"firstMatch":[{}]}}
+2025-01-02 06:57:56:228 [AppiumDriver@a8cd] Calling AppiumDriver.createSession() with args: [null,null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"FlutterIntegration","appium:autoGrantPermissions":true,"appium:orientation":"PORTRAIT","appium:newCommandTimeout":240,"appium:flutterServerTimeout":30000,"appium:flutterServerConnectionTimeout":30000,"appium:flutterServerReadTimeout":30000,"appium:app":"../build/app/outputs/flutter-apk/app-debug.apk"},"firstMatch":[{}]}]
+2025-01-02 06:57:56:230 [AppiumDriver@a8cd] Event 'newSessionRequested' logged at 1735801076230 (13:57:56 GMT+0700 (Western Indonesia Time))
+2025-01-02 06:57:56:234 [Appium] Attempting to find matching driver for automationName 'FlutterIntegration' and platformName 'Android'
+2025-01-02 06:57:56:235 [Appium] The 'flutter-integration' driver was installed and matched caps.
+2025-01-02 06:57:56:235 [Appium] Will require it at /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-flutter-integration-driver
+2025-01-02 06:57:56:236 [Appium] Requiring driver at /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-flutter-integration-driver/build/src/driver.js
+2025-01-02 06:57:56:237 [AppiumDriver@a8cd] Appium v2.13.1 creating new AppiumFlutterDriver (v1.1.3) session
+2025-01-02 06:57:56:237 [AppiumDriver@a8cd] Checking BaseDriver versions for Appium and AppiumFlutterDriver
+2025-01-02 06:57:56:237 [AppiumDriver@a8cd] Appium's BaseDriver version is 9.13.1
+2025-01-02 06:57:56:237 [AppiumDriver@a8cd] AppiumFlutterDriver's BaseDriver version is 9.13.1
+2025-01-02 06:57:56:237 [AppiumDriver@a8cd] Applying relaxed security to 'AppiumFlutterDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2025-01-02 06:57:56:238 [38;5;-184m[AppiumFlutterDriver@f6ce] 
+2025-01-02 06:57:56:239 [38;5;-184m[AppiumFlutterDriver@f6ce] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "FlutterIntegration",
+    "appium:autoGrantPermissions": true,
+    "appium:orientation": "PORTRAIT",
+    "appium:newCommandTimeout": 240,
+    "appium:flutterServerTimeout": 30000,
+    "appium:flutterServerConnectionTimeout": 30000,
+    "appium:flutterServerReadTimeout": 30000,
+    "appium:app": "../build/app/outputs/flutter-apk/app-debug.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2025-01-02 06:57:56:241 [38;5;-184m[AppiumFlutterDriver@f6ce] The following provided capabilities were not recognized by this driver:
+2025-01-02 06:57:56:241 [38;5;-184m[AppiumFlutterDriver@f6ce]   autoGrantPermissions
+2025-01-02 06:57:56:242 [38;5;-184m[AppiumFlutterDriver@f6ce]   flutterServerTimeout
+2025-01-02 06:57:56:242 [38;5;-184m[AppiumFlutterDriver@f6ce]   flutterServerConnectionTimeout
+2025-01-02 06:57:56:242 [38;5;-184m[AppiumFlutterDriver@f6ce]   flutterServerReadTimeout
+2025-01-02 06:57:56:242 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Session created with session id: a9118f8f-5d9d-4ac7-adfd-f272ea652477
+2025-01-02 06:57:56:242 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Starting an Android proxy session
+2025-01-02 06:57:56:246 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] 
+2025-01-02 06:57:56:247 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "FlutterIntegration",
+    "appium:autoGrantPermissions": true,
+    "appium:orientation": "PORTRAIT",
+    "appium:newCommandTimeout": 240,
+    "appium:flutterServerTimeout": 30000,
+    "appium:flutterServerConnectionTimeout": 30000,
+    "appium:flutterServerReadTimeout": 30000,
+    "appium:app": "../build/app/outputs/flutter-apk/app-debug.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2025-01-02 06:57:56:255 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] The following provided capabilities were not recognized by this driver:
+2025-01-02 06:57:56:255 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992]   flutterServerTimeout
+2025-01-02 06:57:56:255 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992]   flutterServerConnectionTimeout
+2025-01-02 06:57:56:256 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992]   flutterServerReadTimeout
+2025-01-02 06:57:56:256 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Session created with session id: 31279ddd-4c12-4304-ba39-a200822c6a1b
+2025-01-02 06:57:56:268 [31279ddd][ADB] Found 4 'build-tools' folders under '/home/hanan/Android/Sdk/' (newest first):
+2025-01-02 06:57:56:268 [31279ddd][ADB]     /home/hanan/Android/Sdk/build-tools/35.0.0
+2025-01-02 06:57:56:268 [31279ddd][ADB]     /home/hanan/Android/Sdk/build-tools/34.0.0
+2025-01-02 06:57:56:268 [31279ddd][ADB]     /home/hanan/Android/Sdk/build-tools/33.0.1
+2025-01-02 06:57:56:268 [31279ddd][ADB]     /home/hanan/Android/Sdk/build-tools/30.0.3
+2025-01-02 06:57:56:269 [31279ddd][ADB] Using 'adb' from '/home/hanan/Android/Sdk/platform-tools/adb'
+2025-01-02 06:57:56:269 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 start-server'
+2025-01-02 06:57:56:275 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Retrieving device list
+2025-01-02 06:57:56:275 [31279ddd][ADB] Trying to find connected Android devices
+2025-01-02 06:57:56:275 [31279ddd][ADB] Getting connected devices
+2025-01-02 06:57:56:280 [31279ddd][ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2025-01-02 06:57:56:280 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Using device: emulator-5554
+2025-01-02 06:57:56:281 [31279ddd][ADB] Using 'adb' from '/home/hanan/Android/Sdk/platform-tools/adb'
+2025-01-02 06:57:56:281 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 start-server'
+2025-01-02 06:57:56:286 [31279ddd][ADB] Setting device id to emulator-5554
+2025-01-02 06:57:56:286 [31279ddd][BaseDriver] The current application path '../build/app/outputs/flutter-apk/app-debug.apk' is not absolute and has been rewritten to '/home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk'. Consider using absolute paths rather than relative
+2025-01-02 06:57:56:288 [31279ddd][BaseDriver] Using local app '/home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk'
+2025-01-02 06:57:56:476 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Checking whether app is actually present
+2025-01-02 06:57:56:477 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2025-01-02 06:57:56:490 [31279ddd][ADB] Current device property 'ro.build.version.sdk': 35
+2025-01-02 06:57:56:490 [31279ddd][ADB] Getting device platform version
+2025-01-02 06:57:56:491 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2025-01-02 06:57:56:505 [31279ddd][ADB] Current device property 'ro.build.version.release': 15
+2025-01-02 06:57:56:505 [31279ddd][ADB] Device API level: 35
+2025-01-02 06:57:56:505 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Relaxing hidden api policy
+2025-01-02 06:57:56:505 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2025-01-02 06:57:56:508 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Parsing package and activity from the 'app-debug.apk' file manifest
+2025-01-02 06:57:56:509 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2025-01-02 06:57:56:514 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2025-01-02 06:57:56:518 [31279ddd][ADB] Using 'aapt2' from '/home/hanan/Android/Sdk/build-tools/35.0.0/aapt2'
+2025-01-02 06:57:56:519 [31279ddd][ADB] Reading package manifest: '/home/hanan/Android/Sdk/build-tools/35.0.0/aapt2 dump badging /home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk'
+2025-01-02 06:57:56:526 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Pushing settings apk to the device...
+2025-01-02 06:57:56:527 [31279ddd][ADB] Getting package info for 'io.appium.settings'
+2025-01-02 06:57:56:527 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2025-01-02 06:57:56:533 [31279ddd][ADB] Package name: 'com.example.flutter_application_integration_test'
+2025-01-02 06:57:56:533 [31279ddd][ADB] Main activity name: 'com.example.flutter_application_integration_test.MainActivity'
+2025-01-02 06:57:56:533 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Resolved launch package/activity: com.example.flutter_application_integration_test/com.example.flutter_application_integration_test.MainActivity
+2025-01-02 06:57:56:533 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Resolved wait package/activity: com.example.flutter_application_integration_test/com.example.flutter_application_integration_test.MainActivity
+2025-01-02 06:57:56:546 [31279ddd][ADB] Reading package manifest: '/home/hanan/Android/Sdk/build-tools/35.0.0/aapt2 dump badging /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-01-02 06:57:56:556 [31279ddd][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.12.19' >= '5.12.19')
+2025-01-02 06:57:56:556 [31279ddd][ADB] There is no need to install/upgrade '/home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-01-02 06:57:56:557 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+2025-01-02 06:57:56:573 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] io.appium.settings is already running. There is no need to reset its permissions.
+2025-01-02 06:57:56:574 [31279ddd][Logcat] Starting logs capture with command: /home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+2025-01-02 06:57:56:604 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2025-01-02 06:57:56:607 [31279ddd][ADB] Forwarding system: 8200 to device: 6790
+2025-01-02 06:57:56:607 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+2025-01-02 06:57:56:621 [31279ddd][ADB] Getting package info for 'io.appium.uiautomator2.server'
+2025-01-02 06:57:56:622 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2025-01-02 06:57:56:626 [31279ddd][ADB] Getting install status for io.appium.uiautomator2.server.test
+2025-01-02 06:57:56:627 [31279ddd][ADB] Checking app cert for /home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk
+2025-01-02 06:57:56:627 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages'
+2025-01-02 06:57:56:655 [31279ddd][ADB] Reading package manifest: '/home/hanan/Android/Sdk/build-tools/35.0.0/aapt2 dump badging /home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.8.apk'
+2025-01-02 06:57:56:661 [31279ddd][ADB] 'io.appium.uiautomator2.server.test' is installed
+2025-01-02 06:57:56:690 [31279ddd][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.1.8' >= '7.1.8')
+2025-01-02 06:57:56:691 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Server packages status: [{"installState":"sameVersionInstalled","appPath":"/home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.8.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+2025-01-02 06:57:56:692 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Server packages are not going to be (re)installed
+2025-01-02 06:57:56:692 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Waiting up to 30000ms for services to be available
+2025-01-02 06:57:56:692 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2025-01-02 06:57:56:724 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2025-01-02 06:57:56:728 [31279ddd][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2025-01-02 06:57:56:728 [31279ddd][ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2025-01-02 06:57:56:729 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2025-01-02 06:57:57:058 [31279ddd][ADB] Using 'apksigner.jar' from '/home/hanan/Android/Sdk/build-tools/35.0.0/lib/apksigner.jar'
+2025-01-02 06:57:57:062 [31279ddd][ADB] Starting apksigner: /usr/lib/jvm/java-17-openjdk-17.0.13.0.11-3.fc41.x86_64/bin/java -Xmx1024M -Xss1m -jar /home/hanan/Android/Sdk/build-tools/35.0.0/lib/apksigner.jar verify --print-certs /home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk
+2025-01-02 06:57:59:040 [31279ddd][ADB] apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: ae67b172297c6cbe430236ef9a67b249f18dd104df1e098c86748f722a43114b
+Signer #1 certificate SHA-1 digest: 3d20bd2aa221ffdd053c5fe22296234f344e8b2e
+Signer #1 certificate MD5 digest: 3b0d8f8bc39961d04856f0591d88a73f
+
+2025-01-02 06:57:59:040 [31279ddd][ADB] '/home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk' is signed with a non-default certificate
+2025-01-02 06:57:59:041 [31279ddd][ADB] Getting package info for 'com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:041 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:059 [31279ddd][ADB] Reading package manifest: '/home/hanan/Android/Sdk/build-tools/35.0.0/aapt2 dump badging /home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk'
+2025-01-02 06:57:59:066 [31279ddd][ADB] The version name of the installed 'com.example.flutter_application_integration_test' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+2025-01-02 06:57:59:066 [31279ddd][ADB] There is no need to install/upgrade '/home/hanan/Works/other/flutter_application_integration_test/build/app/outputs/flutter-apk/app-debug.apk'
+2025-01-02 06:57:59:066 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Performing fast reset on 'com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:066 [31279ddd][ADB] Getting install status for com.example.flutter_application_integration_test
+2025-01-02 06:57:59:067 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages'
+2025-01-02 06:57:59:084 [31279ddd][ADB] 'com.example.flutter_application_integration_test' is installed
+2025-01-02 06:57:59:084 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:106 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:140 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.example.flutter_application_integration_test'
+2025-01-02 06:57:59:160 [31279ddd][ADB] Retrieving requested permissions
+2025-01-02 06:57:59:163 [31279ddd][ADB] Retrieved 1 permission from requested group
+2025-01-02 06:57:59:164 [31279ddd][ADB] Retrieving granted permissions
+2025-01-02 06:57:59:165 [31279ddd][ADB] Retrieved 1 permission from install,runtime groups
+2025-01-02 06:57:59:165 [31279ddd][ADB] com.example.flutter_application_integration_test contains no permissions available for granting
+2025-01-02 06:57:59:165 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Performed fast reset on the installed 'com.example.flutter_application_integration_test' application (stop and clear)
+2025-01-02 06:57:59:166 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Performing shallow cleanup of automation leftovers
+2025-01-02 06:57:59:230 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] No obsolete sessions have been detected (socket hang up)
+2025-01-02 06:57:59:230 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+2025-01-02 06:57:59:233 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2025-01-02 06:57:59:260 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Starting UIAutomator2 server 7.1.8
+2025-01-02 06:57:59:260 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Using UIAutomator2 server from '/home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.8.apk' and test from '/home/hanan/Works/other/flutter_application_integration_test/e2e/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2025-01-02 06:57:59:261 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Waiting up to 30000ms for UiAutomator2 to be online...
+2025-01-02 06:57:59:261 [31279ddd][ADB] Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2025-01-02 06:57:59:266 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/status' to command name 'getStatus'
+2025-01-02 06:57:59:267 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-01-02 06:57:59:274 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] socket hang up
+2025-01-02 06:57:59:774 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] [Instrumentation] 
+2025-01-02 06:58:00:276 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/status' to command name 'getStatus'
+2025-01-02 06:58:00:276 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-01-02 06:58:00:279 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] socket hang up
+2025-01-02 06:58:01:280 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/status' to command name 'getStatus'
+2025-01-02 06:58:01:280 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-01-02 06:58:01:309 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2025-01-02 06:58:01:309 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] The initialization of the instrumentation process took 2048ms
+2025-01-02 06:58:01:310 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/session' to command name 'createSession'
+2025-01-02 06:58:01:310 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk"},"deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.example.flutter_application_integration_test","appActivity":"com.example.flutter_application_integration_test.MainA...
+2025-01-02 06:58:01:325 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk"},"deviceName":"emulator-5554","deviceUDID":"emulator-5554","appPackage":"com.example.flutter_application_integration_test","appActiv...
+2025-01-02 06:58:01:325 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Determined the downstream protocol as 'W3C'
+2025-01-02 06:58:01:348 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba/appium/device/pixel_ratio] with no body
+2025-01-02 06:58:01:350 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2025-01-02 06:58:01:350 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba/appium/device/system_bars] with no body
+2025-01-02 06:58:01:352 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/window/current/size' to command name 'getWindowSize'
+2025-01-02 06:58:01:352 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba/window/current/size] with no body
+2025-01-02 06:58:01:357 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba/appium/device/info] with no body
+2025-01-02 06:58:01:359 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2025-01-02 06:58:01:361 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys power'
+2025-01-02 06:58:01:375 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":2.625}
+2025-01-02 06:58:01:379 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":{"height":2400,"width":1080}}
+2025-01-02 06:58:01:380 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":{"statusBar":63}}
+2025-01-02 06:58:01:394 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":{"androidId":"3da6b486b6e44504","apiVersion":"35","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_x86_64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_IA,NET_CAPABILITY_XCAP,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"fast.t-mobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":10,"subtypeName":"HSPA","type":0,"typeName":"MOBILE"},{"capabilities":{"SSI...
+2025-01-02 06:58:01:434 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Screen already unlocked, doing nothing
+2025-01-02 06:58:01:434 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Starting 'com.example.flutter_application_integration_test/com.example.flutter_application_integration_test.MainActivity and waiting for 'com.example.flutter_application_integration_test/com.example.flutter_application_integration_test.MainActivity'
+2025-01-02 06:58:01:435 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -W -n com.example.flutter_application_integration_test/com.example.flutter_application_integration_test.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2025-01-02 06:58:02:780 [31279ddd][ADB] Waiting up to 20000ms for activity matching pkg: 'com.example.flutter_application_integration_test' and activity: 'com.example.flutter_application_integration_test.MainActivity' to be focused
+2025-01-02 06:58:02:780 [31279ddd][ADB] Possible activities, to be checked: 'com.example.flutter_application_integration_test.MainActivity', 'com.example.flutter_application_integration_test.com.example.flutter_application_integration_test.MainActivity'
+2025-01-02 06:58:02:781 [31279ddd][ADB] Getting focused package and activity
+2025-01-02 06:58:02:782 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
+2025-01-02 06:58:02:801 [31279ddd][ADB] Found package: 'com.example.flutter_application_integration_test' and fully qualified activity name : 'com.example.flutter_application_integration_test.MainActivity'
+2025-01-02 06:58:02:802 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Setting initial orientation to 'PORTRAIT'
+2025-01-02 06:58:02:803 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/orientation' to command name 'setOrientation'
+2025-01-02 06:58:02:803 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [POST /orientation] to [POST http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba/orientation] with body: {"orientation":"PORTRAIT"}
+2025-01-02 06:58:03:763 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":"PORTRAIT"}
+2025-01-02 06:58:03:766 [31279ddd][ADB] Forwarding system: 10000 to device: 9000
+2025-01-02 06:58:03:766 [31279ddd][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:10000 tcp:9000'
+2025-01-02 06:58:03:772 [31279ddd][38;5;-184m[AppiumFlutterDriver@f6ce] Checking if flutter server is running on port 9000
+2025-01-02 06:58:03:775 [31279ddd][WD Proxy] Matched '/status' to command name 'getStatus'
+2025-01-02 06:58:03:777 [31279ddd][WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/status] with no body
+2025-01-02 06:58:03:853 [31279ddd][WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"Flutter driver is ready to accept new connections","appInfo":{"appName":"flutter_application_integration_test","buildNumber":"1","packageName":"com.example.flutter_application_integration_test","version":"1.0.0","buildSignature":"AE67B172297C6CBE430236EF9A67B249F18DD104DF1E098C86748F722A43114B","installerStore":"com.android.shell"},"serverVersion":"0.0.27"}}
+2025-01-02 06:58:03:854 [31279ddd][38;5;-184m[AppiumFlutterDriver@f6ce] Flutter server is successfully running on port 9000
+2025-01-02 06:58:03:855 [31279ddd][WD Proxy] Matched '/session' to command name 'createSession'
+2025-01-02 06:58:03:855 [31279ddd][WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/session] with body: {"capabilities":{"platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk"}}
+2025-01-02 06:58:03:892 [31279ddd][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":{}}
+2025-01-02 06:58:03:892 [31279ddd][WD Proxy] Determined the downstream protocol as 'W3C'
+2025-01-02 06:58:03:893 [31279ddd][AppiumDriver@a8cd] New AppiumFlutterDriver session created successfully, session a9118f8f-5d9d-4ac7-adfd-f272ea652477 added to master session list
+2025-01-02 06:58:03:893 [31279ddd][AppiumDriver@a8cd] Event 'newSessionStarted' logged at 1735801083893 (13:58:03 GMT+0700 (Western Indonesia Time))
+2025-01-02 06:58:03:893 [31279ddd][38;5;-184m[AppiumFlutterDriver@f6ce] Cached the protocol value 'W3C' for the new session a9118f8f-5d9d-4ac7-adfd-f272ea652477
+2025-01-02 06:58:03:894 [31279ddd][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.createSession() result: {"capabilities":{"subcommand":"server","address":"127.0.0.1","basePath":"/wd/hub","logFile":"/home/hanan/Works/other/flutter_application_integration_test/e2e/appium-logs/logs.txt","port":4751,"relaxedSecurityEnabled":true,"extraArgs":[],"allowCors":false,"allowInsecure":[],"callbackPort":4723,"debugLogSpacing":false,"denyInsecure":[],"keepAliveTimeout":600,"localTimezone":false,"loglevel":"debug","logFormat":"text","logNoColors":false,"logTimestamp":false,"pluginsImportChunkSize":7,"driversImportChunkSize":3,"longStacktrace":false,"noPermsCheck":false,"shutdownTimeout":5000,"sessionOverride":false,"strictCaps":false,"useDrivers":[],"usePlugins":[],"driver":{"xcuitest":{"wdaLocalPort":8100}},"tmpDir":"/tmp","platformName":"Android","automationName":"FlutterIntegration","autoGrantPermissions":true,"orientation":"PORTRAIT","newCommandTimeout":240,"flutterServerTimeout":30000,"flutterServerConnectionTimeout":30000,"flutterServerReadTimeout":30000,"app":"../build/app/outputs/flutter-apk/app-debug.apk","fastRese...
+2025-01-02 06:58:03:897 [31279ddd][HTTP] <-- POST /wd/hub/session 200 7670 ms - 1112 
+2025-01-02 06:58:04:000 [a9118f8f][HTTP] --> POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element {"using":"key","value":"increment"}
+2025-01-02 06:58:04:002 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.findElement() with args: ["key","increment","a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:04:002 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Valid locator strategies for this request: xpath, css selector, id, name, class name, -android uiautomator, accessibility id, -ios predicate string, -ios class chain, key, semantics label, text, type, text containing, -flutter key, -flutter semantics label, -flutter text, -flutter type, -flutter text containing
+2025-01-02 06:58:04:004 [a9118f8f][WD Proxy] Matched '/element' to command name 'findElement'
+2025-01-02 06:58:04:004 [a9118f8f][WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/session/8c74eae6-7b28-4228-b0df-cc493c791ae0/element] with body: {"strategy":"key","selector":"increment"}
+2025-01-02 06:58:04:267 [a9118f8f][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":{"ELEMENT":"28a6b564-28a6-b564-28a6-b56428a6b564","element-6066-11e4-a52e-4f735466cecf":"28a6b564-28a6-b564-28a6-b56428a6b564"}}
+2025-01-02 06:58:04:267 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"28a6b564-28a6-b564-28a6-b56428a6b564","ELEMENT":"28a6b564-28a6-b564-28a6-b56428a6b564"}
+2025-01-02 06:58:04:268 [a9118f8f][HTTP] <-- POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element 200 268 ms - 137 
+2025-01-02 06:58:04:641 [a9118f8f][HTTP] --> POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/28a6b564-28a6-b564-28a6-b56428a6b564/click {}
+2025-01-02 06:58:04:643 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.click() with args: ["28a6b564-28a6-b564-28a6-b56428a6b564","a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:04:644 [a9118f8f][WD Proxy] Matched '/element/28a6b564-28a6-b564-28a6-b56428a6b564/click' to command name 'click'
+2025-01-02 06:58:04:644 [a9118f8f][WD Proxy] Proxying [POST /element/28a6b564-28a6-b564-28a6-b56428a6b564/click] to [POST http://127.0.0.1:10000/session/8c74eae6-7b28-4228-b0df-cc493c791ae0/element/28a6b564-28a6-b564-28a6-b56428a6b564/click] with body: {"element":"28a6b564-28a6-b564-28a6-b56428a6b564"}
+2025-01-02 06:58:04:949 [a9118f8f][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":null}
+2025-01-02 06:58:04:949 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.click() result: null
+2025-01-02 06:58:04:950 [a9118f8f][HTTP] <-- POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/28a6b564-28a6-b564-28a6-b56428a6b564/click 200 309 ms - 14 
+2025-01-02 06:58:04:956 [a9118f8f][HTTP] --> POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element {"using":"key","value":"counter"}
+2025-01-02 06:58:04:956 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.findElement() with args: ["key","counter","a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:04:956 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Valid locator strategies for this request: xpath, css selector, id, name, class name, -android uiautomator, accessibility id, -ios predicate string, -ios class chain, key, semantics label, text, type, text containing, -flutter key, -flutter semantics label, -flutter text, -flutter type, -flutter text containing
+2025-01-02 06:58:04:957 [a9118f8f][WD Proxy] Matched '/element' to command name 'findElement'
+2025-01-02 06:58:04:957 [a9118f8f][WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10000/session/8c74eae6-7b28-4228-b0df-cc493c791ae0/element] with body: {"strategy":"key","selector":"counter"}
+2025-01-02 06:58:05:340 [a9118f8f][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":{"ELEMENT":"1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d","element-6066-11e4-a52e-4f735466cecf":"1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d"}}
+2025-01-02 06:58:05:341 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d","ELEMENT":"1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d"}
+2025-01-02 06:58:05:342 [a9118f8f][HTTP] <-- POST /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element 200 386 ms - 137 
+2025-01-02 06:58:05:352 [a9118f8f][HTTP] --> GET /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text {}
+2025-01-02 06:58:05:353 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.getText() with args: ["1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d","a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:05:354 [a9118f8f][WD Proxy] Matched '/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text' to command name 'getText'
+2025-01-02 06:58:05:355 [a9118f8f][WD Proxy] Proxying [GET /element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text] to [GET http://127.0.0.1:10000/session/8c74eae6-7b28-4228-b0df-cc493c791ae0/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text] with no body
+2025-01-02 06:58:05:406 [a9118f8f][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":"1"}
+2025-01-02 06:58:05:406 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.getText() result: "1"
+2025-01-02 06:58:05:407 [a9118f8f][HTTP] <-- GET /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text 200 55 ms - 13 
+2025-01-02 06:58:05:411 [a9118f8f][HTTP] --> GET /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text {}
+2025-01-02 06:58:05:412 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.getText() with args: ["1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d","a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:05:413 [a9118f8f][WD Proxy] Matched '/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text' to command name 'getText'
+2025-01-02 06:58:05:413 [a9118f8f][WD Proxy] Proxying [GET /element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text] to [GET http://127.0.0.1:10000/session/8c74eae6-7b28-4228-b0df-cc493c791ae0/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text] with no body
+2025-01-02 06:58:05:460 [a9118f8f][WD Proxy] Got response with status 200: {"sessionId":"8c74eae6-7b28-4228-b0df-cc493c791ae0","value":"1"}
+2025-01-02 06:58:05:461 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Responding to client with driver.getText() result: "1"
+2025-01-02 06:58:05:461 [a9118f8f][HTTP] <-- GET /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477/element/1f273a9d-1f27-3a9d-1f27-3a9d1f273a9d/text 200 50 ms - 13 
+2025-01-02 06:58:05:466 [a9118f8f][HTTP] --> DELETE /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477 {}
+2025-01-02 06:58:05:466 [a9118f8f][38;5;-184m[AppiumFlutterDriver@f6ce] Calling AppiumDriver.deleteSession() with args: ["a9118f8f-5d9d-4ac7-adfd-f272ea652477"]
+2025-01-02 06:58:05:466 [a9118f8f][AppiumDriver@a8cd] Event 'quitSessionRequested' logged at 1735801085466 (13:58:05 GMT+0700 (Western Indonesia Time))
+2025-01-02 06:58:05:467 [a9118f8f][AppiumDriver@a8cd] Removing session a9118f8f-5d9d-4ac7-adfd-f272ea652477 from our master session list
+2025-01-02 06:58:05:467 [a9118f8f][ADB] Removing forwarded port socket connection: 10000 
+2025-01-02 06:58:05:467 [a9118f8f][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:10000'
+2025-01-02 06:58:05:472 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Deleting UiAutomator2 session
+2025-01-02 06:58:05:473 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Deleting UiAutomator2 server session
+2025-01-02 06:58:05:473 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Matched '/' to command name 'deleteSession'
+2025-01-02 06:58:05:473 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/6f22b184-e2a1-4f17-a037-a8529de322ba] with no body
+2025-01-02 06:58:05:479 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Got response with status 200: {"sessionId":"6f22b184-e2a1-4f17-a037-a8529de322ba","value":null}
+2025-01-02 06:58:05:481 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2025-01-02 06:58:05:481 [31279ddd][38;5;-128m[AndroidUiautomator2Driver@3992] [Instrumentation] The process has exited with code null, signal SIGTERM
+2025-01-02 06:58:05:483 [a9118f8f][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2025-01-02 06:58:05:486 [a9118f8f][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.example.flutter_application_integration_test'
+2025-01-02 06:58:05:519 [a9118f8f][ADB] Removing forwarded port socket connection: 8200 
+2025-01-02 06:58:05:519 [a9118f8f][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+2025-01-02 06:58:05:525 [a9118f8f][38;5;-128m[AndroidUiautomator2Driver@3992] Restoring hidden api policy to the device default configuration
+2025-01-02 06:58:05:526 [a9118f8f][ADB] Running '/home/hanan/Android/Sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2025-01-02 06:58:05:588 [a9118f8f][Logcat] Stopping logcat capture
+2025-01-02 06:58:05:590 [a9118f8f][AppiumDriver@a8cd] Event 'quitSessionFinished' logged at 1735801085590 (13:58:05 GMT+0700 (Western Indonesia Time))
+2025-01-02 06:58:05:590 [a9118f8f][AppiumDriver@a8cd] Received response: null
+2025-01-02 06:58:05:590 [a9118f8f][AppiumDriver@a8cd] But deleting session, so not returning
+2025-01-02 06:58:05:591 [a9118f8f][AppiumDriver@a8cd] Responding to client with driver.deleteSession() result: null
+2025-01-02 06:58:05:592 [a9118f8f][HTTP] <-- DELETE /wd/hub/session/a9118f8f-5d9d-4ac7-adfd-f272ea652477 200 125 ms - 14 
